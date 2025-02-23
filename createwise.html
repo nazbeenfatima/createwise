@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Creatiwise - Professional Design Services</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+theme: {
+extend: {
+colors: {
+primary: '#FF6B6B',
+secondary: '#4ECDC4'
+},
+borderRadius: {
+'none': '0px',
+'sm': '4px',
+DEFAULT: '8px',
+'md': '12px',
+'lg': '16px',
+'xl': '20px',
+'2xl': '24px',
+'3xl': '32px',
+'full': '9999px',
+'button': '8px'
+}
+}
+}
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+body { font-family: 'Inter', sans-serif; }
+</style>
+</head>
+<body class="bg-white">
+<nav class="fixed w-full bg-white/80 backdrop-blur-sm z-50 border-b border-gray-100">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between h-16">
+<div class="flex items-center">
+<a href="#" class="text-2xl font-['Pacifico'] text-primary">Creatiwise</a>
+</div>
+<div class="hidden md:flex items-center space-x-8">
+<a href="#services" class="text-gray-600 hover:text-primary">Services</a>
+<a href="#how-it-works" class="text-gray-600 hover:text-primary">How It Works</a>
+<a href="#portfolio" class="text-gray-600 hover:text-primary">Portfolio</a>
+<a href="#pricing" class="text-gray-600 hover:text-primary">Pricing</a>
+<button class="bg-primary text-white px-6 py-2 !rounded-button hover:bg-primary/90 whitespace-nowrap">Get Started</button>
+</div>
+</div>
+</div>
+</nav>
+<header class="pt-32 pb-16 relative overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-br from-primary/5 to-secondary/5"></div>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+<div class="grid lg:grid-cols-2 gap-12 items-center">
+<div>
+<h1 class="text-5xl font-bold leading-tight mb-6">Transform Your Brand with Professional Design Services</h1>
+<p class="text-xl text-gray-600 mb-8">Get unlimited design services for branding, marketing, and UI design. Fast turnaround, fixed monthly price, and satisfaction guaranteed.</p>
+<div class="flex gap-4">
+<button class="bg-primary text-white px-8 py-4 !rounded-button hover:bg-primary/90 text-lg font-medium whitespace-nowrap">Start Free Trial</button>
+<button class="border border-gray-200 px-8 py-4 !rounded-button hover:bg-gray-50 text-lg font-medium whitespace-nowrap">View Portfolio</button>
+</div>
+</div>
+<div class="relative">
+<img src="https://public.readdy.ai/ai/img_res/f654e72283c8324112597af7483f9cf0.jpg" alt="Designer working" class="rounded-2xl shadow-2xl">
+</div>
+</div>
+</div>
+</header>
+<section id="services" class="py-24 bg-gray-50">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold mb-4">Our Design Services</h2>
+<p class="text-xl text-gray-600">Everything you need to build and grow your brand</p>
+</div>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-lg transition-shadow">
+<div class="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center mb-6">
+<i class="ri-palette-line text-primary text-2xl"></i>
+</div>
+<h3 class="text-2xl font-bold mb-4">Branding</h3>
+<p class="text-gray-600 mb-6">Create a unique and memorable brand identity with our professional branding services. Includes logo design, brand guidelines, and more.</p>
+<button class="text-primary font-medium hover:text-primary/80">Learn More →</button>
+</div>
+<div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-lg transition-shadow">
+<div class="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center mb-6">
+<i class="ri-advertisement-line text-primary text-2xl"></i>
+</div>
+<h3 class="text-2xl font-bold mb-4">Marketing Design</h3>
+<p class="text-gray-600 mb-6">Get eye-catching marketing materials designed to drive engagement. From social media to print materials, we've got you covered.</p>
+<button class="text-primary font-medium hover:text-primary/80">Learn More →</button>
+</div>
+<div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-lg transition-shadow">
+<div class="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center mb-6">
+<i class="ri-layout-line text-primary text-2xl"></i>
+</div>
+<h3 class="text-2xl font-bold mb-4">UI Design</h3>
+<p class="text-gray-600 mb-6">Transform your digital presence with beautiful and functional user interface designs for web and mobile applications.</p>
+<button class="text-primary font-medium hover:text-primary/80">Learn More →</button>
+</div>
+</div>
+</div>
+</section>
+<section id="how-it-works" class="py-24">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold mb-4">How It Works</h2>
+<p class="text-xl text-gray-600">Simple process, amazing results</p>
+</div>
+<div class="grid md:grid-cols-4 gap-8">
+<div class="text-center">
+<div class="w-16 h-16 bg-gradient-to-br from-primary to-secondary text-white rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold shadow-lg">1</div>
+<h3 class="text-xl font-bold mb-4">Submit Request</h3>
+<p class="text-gray-600">Tell us what you need designed through our simple project brief form</p>
+</div>
+<div class="text-center">
+<div class="w-16 h-16 bg-gradient-to-br from-primary to-secondary text-white rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold shadow-lg">2</div>
+<h3 class="text-xl font-bold mb-4">Get Matched</h3>
+<p class="text-gray-600">We'll assign the perfect designer for your project needs</p>
+</div>
+<div class="text-center">
+<div class="w-16 h-16 bg-gradient-to-br from-primary to-secondary text-white rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold shadow-lg">3</div>
+<h3 class="text-xl font-bold mb-4">Review Design</h3>
+<p class="text-gray-600">Receive your first design concept within 24-48 hours</p>
+</div>
+<div class="text-center">
+<div class="w-16 h-16 bg-gradient-to-br from-primary to-secondary text-white rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold shadow-lg">4</div>
+<h3 class="text-xl font-bold mb-4">Request Revisions</h3>
+<p class="text-gray-600">Get unlimited revisions until you're 100% satisfied</p>
+</div>
+</div>
+</div>
+</section>
+<section id="portfolio" class="py-24 bg-gray-50">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold mb-4">Our Latest Work</h2>
+<p class="text-xl text-gray-600">Check out some of our recent projects</p>
+</div>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
+<img src="https://public.readdy.ai/ai/img_res/0f3886def05c9ed1057512065982ac7b.jpg" alt="Branding Project" class="w-full h-48 object-cover">
+<div class="p-6">
+<h3 class="text-xl font-bold mb-2">Tech Startup Branding</h3>
+<p class="text-gray-600">Complete brand identity design for an innovative tech startup</p>
+</div>
+</div>
+<div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
+<img src="https://public.readdy.ai/ai/img_res/3552fd92d49602df6722463fab09e7a9.jpg" alt="Marketing Design" class="w-full h-48 object-cover">
+<div class="p-6">
+<h3 class="text-xl font-bold mb-2">Social Media Campaign</h3>
+<p class="text-gray-600">Engaging social media designs for a lifestyle brand</p>
+</div>
+</div>
+<div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
+<img src="https://public.readdy.ai/ai/img_res/aef6be82137178d19050654069547c9b.jpg" alt="UI Design" class="w-full h-48 object-cover">
+<div class="p-6">
+<h3 class="text-xl font-bold mb-2">E-commerce Website</h3>
+<p class="text-gray-600">User-friendly interface design for an online store</p>
+</div>
+</div>
+</div>
+<div class="text-center mt-12">
+<button class="bg-primary text-white px-8 py-4 !rounded-button hover:bg-primary/90 text-lg font-medium whitespace-nowrap">View All Projects</button>
+</div>
+</div>
+</section>
+<section id="pricing" class="py-24">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold mb-4">Simple, Transparent Pricing</h2>
+<p class="text-xl text-gray-600">Choose the plan that works best for you</p>
+</div>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="bg-white p-8 rounded-2xl border border-gray-200 hover:border-primary/20 hover:shadow-lg transition-all">
+<h3 class="text-2xl font-bold mb-4">Starter</h3>
+<div class="text-4xl font-bold mb-6">$999<span class="text-lg text-gray-600">/mo</span></div>
+<ul class="space-y-4 mb-8">
+<li class="flex items-center">
+<i class="ri-check-line text-green-500 mr-2"></i>
+<span>1 Design Request at a time</span>
+</li>
+<li class="flex items-center">
+<i class="ri-check-line text-green-500 mr-2"></i>
+<span>48 hour turnaround</span>
+</li>
+<li class="flex items-center">
+<i class="ri-check-line text-green-500 mr-2"></i>
+<span>Unlimited revisions</span>
+</li>
+<li class="flex items-center">
+<i class="ri-check-line text-green-500 mr-2"></i>
+<span>Source files included</span>
+</li>
+</ul>
+<button class="w-full bg-white border border-primary text-primary px-6 py-3 !rounded-button hover:bg-primary/5 font-medium whitespace-nowrap">Start Free Trial</button>
+</div>
+<div class="bg-white p-8 rounded-2xl border-2 border-primary relative shadow-xl">
+<div class="absolute top-0 right-8 transform -translate-y-1/2 bg-primary text-white px-4 py-1 rounded-full text-sm font-medium">Most Popular</div>
+<h3 class="text-2xl font-bold mb-4">Professional</h3>
+<div class="text-4xl font-bold mb-6">$1,999<span class="text-lg text-gray-600">/mo</span></div>
+<ul class="space-y-4 mb-8">
+<li class="flex items-center">
+<i class="ri-check-line text-green-500 mr-2"></i>
+<span>2 Design Requests at a time</span>
+</li>
+<li class="flex items-center">
+<i class="ri-check-line text-green-500 mr-2"></i>
+<span>24 hour turnaround</span>
+</li>
+<li class="flex items-center">
+<i class="ri-check-line text-green-500 mr-2"></i>
+<span>Unlimited revisions</span>
+</li>
+<li class="flex items-center">
+<i class="ri-check-line text-green-500 mr-2"></i>
+<span>Source files included</span>
+</li>
+<li class="flex items-center">
+<i class="ri-check-line text-green-500 mr-2"></i>
+<span>Priority support</span>
+</li>
+</ul>
+<button class="w-full bg-primary text-white px-6 py-3 !rounded-button hover:bg-primary/90 font-medium whitespace-nowrap">Start Free Trial</button>
+</div>
+<div class="bg-white p-8 rounded-2xl border border-gray-200 hover:border-primary/20 hover:shadow-lg transition-all">
+<h3 class="text-2xl font-bold mb-4">Business</h3>
+<div class="text-4xl font-bold mb-6">$2,999<span class="text-lg text-gray-600">/mo</span></div>
+<ul class="space-y-4 mb-8">
+<li class="flex items-center">
+<i class="ri-check-line text-green-500 mr-2"></i>
+<span>4 Design Requests at a time</span>
+</li>
+<li class="flex items-center">
+<i class="ri-check-line text-green-500 mr-2"></i>
+<span>24 hour turnaround</span>
+</li>
+<li class="flex items-center">
+<i class="ri-check-line text-green-500 mr-2"></i>
+<span>Unlimited revisions</span>
+</li>
+<li class="flex items-center">
+<i class="ri-check-line text-green-500 mr-2"></i>
+<span>Source files included</span>
+</li>
+<li class="flex items-center">
+<i class="ri-check-line text-green-500 mr-2"></i>
+<span>Dedicated account manager</span>
+</li>
+</ul>
+<button class="w-full bg-white border border-primary text-primary px-6 py-3 !rounded-button hover:bg-primary/5 font-medium whitespace-nowrap">Start Free Trial</button>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-gradient-to-br from-primary/5 to-secondary/5">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold mb-4">What Our Clients Say</h2>
+<p class="text-xl text-gray-600">Don't just take our word for it</p>
+</div>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="bg-white p-8 rounded-2xl shadow-sm">
+<div class="flex items-center mb-6">
+<img src="https://public.readdy.ai/ai/img_res/39b085347a9713324971ab6836f6dca0.jpg" alt="Client" class="w-12 h-12 rounded-full mr-4">
+<div>
+<h4 class="font-bold">Sarah Anderson</h4>
+<p class="text-gray-600">Marketing Director, TechCorp</p>
+</div>
+</div>
+<p class="text-gray-600">"Working with Creatiwise has been a game-changer for our brand. Their design team consistently delivers high-quality work that exceeds our expectations."</p>
+</div>
+<div class="bg-white p-8 rounded-2xl shadow-sm">
+<div class="flex items-center mb-6">
+<img src="https://public.readdy.ai/ai/img_res/d9b4c42926241d19dda2b421bc4b7ff3.jpg" alt="Client" class="w-12 h-12 rounded-full mr-4">
+<div>
+<h4 class="font-bold">Michael Thompson</h4>
+<p class="text-gray-600">CEO, StartupX</p>
+</div>
+</div>
+<p class="text-gray-600">"The unlimited design service model has saved us countless hours and resources. The team is responsive, professional, and incredibly talented."</p>
+</div>
+<div class="bg-white p-8 rounded-2xl shadow-sm">
+<div class="flex items-center mb-6">
+<img src="https://public.readdy.ai/ai/img_res/de4a5d8623b45f914439013eaba4df7d.jpg" alt="Client" class="w-12 h-12 rounded-full mr-4">
+<div>
+<h4 class="font-bold">David Chen</h4>
+<p class="text-gray-600">Founder, DigitalFirst</p>
+</div>
+</div>
+<p class="text-gray-600">"Creatiwise has become our go-to design partner. Their attention to detail and quick turnaround times have helped us scale our business faster."</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-gradient-to-r from-primary to-secondary text-white">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center">
+<h2 class="text-4xl font-bold mb-4">Ready to Transform Your Brand?</h2>
+<p class="text-xl opacity-90 mb-8">Start your free trial today. No credit card required.</p>
+<button class="bg-white text-primary px-8 py-4 !rounded-button hover:bg-white/90 text-lg font-medium whitespace-nowrap">Get Started Now</button>
+</div>
+</div>
+</section>
+<footer class="bg-gray-900 text-gray-300 py-16">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid md:grid-cols-4 gap-12">
+<div>
+<a href="#" class="text-2xl font-['Pacifico'] text-white mb-6 block">Creatiwise</a>
+<p class="text-gray-400">Professional design services for modern businesses. Transform your brand with our unlimited design subscription.</p>
+</div>
+<div>
+<h4 class="text-white font-bold mb-6">Services</h4>
+<ul class="space-y-4">
+<li><a href="#" class="hover:text-white">Branding</a></li>
+<li><a href="#" class="hover:text-white">Marketing Design</a></li>
+<li><a href="#" class="hover:text-white">UI Design</a></li>
+<li><a href="#" class="hover:text-white">Custom Solutions</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-white font-bold mb-6">Company</h4>
+<ul class="space-y-4">
+<li><a href="#" class="hover:text-white">About Us</a></li>
+<li><a href="#" class="hover:text-white">How It Works</a></li>
+<li><a href="#" class="hover:text-white">Pricing</a></li>
+<li><a href="#" class="hover:text-white">Contact</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-white font-bold mb-6">Connect</h4>
+<div class="flex space-x-4 mb-6">
+<a href="#" class="hover:text-white"><i class="ri-twitter-line"></i></a>
+<a href="#" class="hover:text-white"><i class="ri-facebook-line"></i></a>
+<a href="#" class="hover:text-white"><i class="ri-instagram-line"></i></a>
+<a href="#" class="hover:text-white"><i class="ri-linkedin-line"></i></a>
+</div>
+<p class="text-sm text-gray-400">© 2025 Creatiwise. All rights reserved.</p>
+</div>
+</div>
+</div>
+</footer>
+<div id="chat-widget" class="fixed bottom-8 right-8 z-50">
+<button class="bg-primary text-white w-16 h-16 rounded-full shadow-lg flex items-center justify-center hover:bg-primary/90">
+<i class="ri-message-3-line text-2xl"></i>
+</button>
+</div>
+</body>
+</html>
